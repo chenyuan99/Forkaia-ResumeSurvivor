@@ -22,4 +22,12 @@
 * Forkaia Dataset
 * Open Source Dataset: https://drive.google.com/open?id=17M9oDPip5JFFFNJhDCBQKy8BMqoyxajU
 
+## Demo
+* Keywords found in job description
+* Keywords missing in your resume
+* Suggested keywords changes in your resume
+* Trending keywords
+* Trending concepts
+
+
 ## Reference
