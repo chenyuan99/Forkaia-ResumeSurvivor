@@ -19,10 +19,14 @@
 * Python 3.6.0 |Anaconda 4.3.0 (64-bit)|
 
 ## Dataset
+
+### Resume
 * Forkaia Dataset
 * Open Source Dataset:
   - https://drive.google.com/open?id=17M9oDPip5JFFFNJhDCBQKy8BMqoyxajU
   - https://www.kaggle.com/maitrip/resumes
+  
+### Job Description
 
 ## Demo
 * Keywords found in job description
