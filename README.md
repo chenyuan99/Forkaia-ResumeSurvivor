@@ -20,7 +20,9 @@
 
 ## Dataset
 * Forkaia Dataset
-* Open Source Dataset: https://drive.google.com/open?id=17M9oDPip5JFFFNJhDCBQKy8BMqoyxajU
+* Open Source Dataset:
+  - https://drive.google.com/open?id=17M9oDPip5JFFFNJhDCBQKy8BMqoyxajU
+  - https://www.kaggle.com/maitrip/resumes
 
 ## Demo
 * Keywords found in job description
