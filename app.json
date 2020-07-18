@@ -1,8 +1,8 @@
 {
-  "name": "Virginia Tech Tech Together Campaign",
-  "description": "A Virginia Tech Tech Together Campaign Application Proposal",
+  "name": "Resume Survivor",
+  "description": "An Intelligent Resume Builder",
   "image": "heroku/python",
-  "repository": "https://github.com/chenyuan99/Tech-Together-App",
+  "repository": "https://github.com/chenyuan99/Forkaia-ResumeSurvivor",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ],
   "env": {
