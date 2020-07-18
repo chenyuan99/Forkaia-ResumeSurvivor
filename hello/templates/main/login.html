@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="center" >
+        <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+            <button class="btn btn-lg btn-default" type="submit">Login</button>
+        </form>
+        Don't have an account? <a href="https://forms.gle/Aa8kggXmtnMYvCK96" target="blank"><strong>register here</strong></a>!
+    </div>
+{% endblock %}
