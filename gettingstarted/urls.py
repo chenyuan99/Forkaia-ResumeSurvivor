@@ -26,4 +26,5 @@ urlpatterns = [
     path("login", hello.views.login_request, name="login"),
     path("resumematch", hello.views.resumematch, name="resumematch"),
     # path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
+    url(r'^contact/$', views.contact, name='contact'),
 ]

@@ -4,6 +4,7 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from hello.forms import NewUserForm
 from hello.models import Greeting
 from hello.models import Tutorial
+from hello.forms import ContactForm
 
 # Create your views here.
 def index(request):
@@ -42,3 +43,10 @@ def register(request):
 def resumematch(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "main/resumematch.html")
+
+# add to your views
+def contact(request):
+    form_class = ContactForm
+    return render(request, 'contact.html', {
+        'form': form_class,
+    })
