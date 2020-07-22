@@ -1,7 +1,6 @@
 from django.urls import path, include
-
 from django.contrib import admin
-
+from django.contrib.sitemaps.views import sitemap
 
 admin.autodiscover()
 
@@ -22,7 +21,8 @@ urlpatterns = [
     path("", hello.views.index, name="index"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
-    # path("register/", hello.views.register, name="register"),
+    path("register/", hello.views.register, name="register"),
     path("logout", hello.views.logout_request, name="logout"),
     path("login", hello.views.login_request, name="login"),
+    # path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
 ]

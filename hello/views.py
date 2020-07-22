@@ -33,3 +33,9 @@ def login_request(request):
                   template_name = "main/login.html",
                   context={"form":form})
 
+def register(request):
+    form = UserCreationForm
+    return render(request = request,
+                  template_name = "main/register.html",
+                  context={"form":form})
+
