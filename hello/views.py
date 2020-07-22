@@ -39,3 +39,6 @@ def register(request):
                   template_name = "main/register.html",
                   context={"form":form})
 
+def resumematch(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "main/resumematch.html")
