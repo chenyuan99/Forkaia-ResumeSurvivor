@@ -47,6 +47,11 @@ def resumematch(request):
 # add to your views
 def contact(request):
     form_class = ContactForm
-    return render(request, 'contact.html', {
+    return render(request, 'main/contact.html', {
         'form': form_class,
     })
+
+# add to your views
+def about(request):
+    form_class = ContactForm
+    return render(request, 'main/about.html')
