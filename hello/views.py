@@ -5,6 +5,7 @@ from hello.forms import NewUserForm
 from hello.models import Greeting
 from hello.models import Tutorial
 from hello.forms import ContactForm
+import markdown
 
 # Create your views here.
 def index(request):
